@@ -1,0 +1,265 @@
+body{
+/* background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg"); */
+
+background-size: cover ; /*resize the image to fit correctly but it will cut the image if need */
+background: linear-gradient(90deg, rgb(23, 24, 24),#202124,rgb(128, 130, 136),#202124);
+/* background-size: contain;  resize the image as much as possible without cuting the image */
+ /*font-size: 2em; /* double the size of every thing in the page*/
+ text-align: justify;
+ /* font-family: sans-serif; */
+ font-family: 'Akshar', sans-serif; /*https://fonts.google.com/specimen/Akshar#standard-styles*/
+}
+
+p{
+  color: white;
+}
+
+#service-image{
+  height: 300px;
+  width: 100%;
+  background: radial-gradient(circle,red 10%,green,rgb(12, 84, 240));
+}
+
+ #title:hover{/* hover is pseudoSelectors   */
+    color: rgb(88, 119, 196) ;
+ }
+ #title{
+  color: rgb(181, 22, 22) ;
+  font-weight: 600;
+
+}
+#first-image{
+  border: 3px solid rgb(23, 170, 27);
+  /* border: 2px dotted rgb(7, 212, 14); */
+/* border: 2px dashed rgb(7, 212, 14); */
+/* border: 5px double rgb(23, 170, 27); */
+
+
+
+  height: 200px;
+  width: 60vw;
+
+  padding: 20px; /* */
+  margin: 20px;
+}
+
+
+#animation{
+  color: white;
+  padding:20px; 
+  margin: 25px;
+  width: 15vw;
+  font-size: 4vw;
+
+  animation-name: red-to-black ; /* name for the function */
+  animation-duration: 4s; /* animation duration time */
+  animation-timing-function: linear;/* style of animation*/
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite; /*  value can be number or infinite*/
+  /*animation-direction: alternate-reverse ; /*normal is the defulte ,, reverse ,,,,, alternate-reverse*/
+  /* ShortHand
+  animation: name duration speedorstyle delay iteration-count direction;
+  animation: red-to-black 4s linear 0 infinite normal 
+  */
+
+}
+
+#second-image{
+  padding-left: 10%;
+  border: 3px solid blue;
+  background:rgba(32,33,36,255);
+}
+
+#empty-list1{
+  /* background: linear-gradient(to right,red,steelblue,green,blue); */
+  /* background: linear-gradient(to right, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
+    /* background: linear-gradient(210deg, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
+    height: 300px;
+    width: 100%;
+  background: radial-gradient(circle,red,blue 20%,green 40%,yellow);
+}
+#empty-list2{
+  height: 300px;
+  width: 100%;
+  /* background: linear-gradient(to right,red,steelblue,green,blue); */
+  /* background: linear-gradient(to right, rgb(72, 255, 36),rgba(72, 201, 36,0)); */
+     background: linear-gradient(210deg, rgb(229, 8, 8),rgba(72, 201, 36,0)); 
+
+}
+
+
+
+ li:first-child{ /* first-child is pseudoSelectors   */
+   color: blue;  
+ }/* first child of every li */
+
+ li:nth-child(2){ /* nth-child(Number of child) is pseudoSelectors   */
+    color: green;  
+  }
+  
+#White-flower li:nth-child(1){
+  color: yellow;
+}
+#White-flower{
+  /* text-decoration: none; */
+  /* text-decoration: underline;  */
+  /* text-decoration: line-through;  */
+    text-decoration: overline; 
+    /*---------------------------------------     */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /*---------------------------------------     */
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: right; */
+    text-align: justify;
+
+}
+/* #google-link{
+ /* display: inline-block;  */
+ /* line-height: 70px; */
+ /* margin: 100px; */
+
+  #google-link:link{/* color of the link before you click or visited */
+      color:blue;
+      text-decoration: none;
+  }
+  #google-link:visited{/* color of the link after you click or visit it  */
+    color: rgba(131,96,163);
+    text-decoration: none;
+}
+#google-link:hover{/* color of the link after you click or visit it  */
+  text-decoration: underline;
+  color:rgb(88, 219, 196)
+}
+
+.links{
+  margin: 100px 0 100px 0;
+
+}
+img{
+    display: block;
+}
+p[class=attribute-selector]:hover{/*attribute selector */
+  color: #0000ff;
+}
+
+.text-edit{
+  /* font-style: italic; */
+  font-style:oblique; 
+
+}
+#container{
+
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-item{
+  background-color: rgb(36, 130, 39);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+  width: 70px;
+  line-height: 50px;
+  margin: 10px;
+}
+.grid-container{
+  background: linear-gradient(90deg, rgb(23, 24, 24),#202124,rgb(128, 130, 136),#202124);
+  
+  margin: 10px;
+  height: 80vh;
+  border :3px dashed rgb(34, 163, 255) ;
+  display: grid; 
+  grid-template-rows: auto  auto ;
+  grid-template-columns:auto  auto auto  ; 
+  /* justify-content: space-evenly ;
+  align-content:space-around ; */
+
+  /* grid-column-gap: 150px;
+  grid-row-gap: 100px; */
+  /*grid-gap: 100px 150px ; /*row then  column*/
+
+
+}
+.grid-item{
+  color: rgb(16, 119, 97);
+  font-size: 25px;;
+  text-align: center;
+  width: 40px;
+  margin: 10px;
+  line-height: 30px;
+}
+
+/* contact */
+
+#contact-information{
+  background-color: rgb(205, 210, 216);
+  width:100%;
+}
+#submit-button{
+  
+  margin: 20px 10px;
+  padding: 10px 10px;
+  border: none;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-size: 20px;
+  color:white;
+  background:rgb(89, 150, 255);
+
+
+  
+
+  transition: background,padding,color, .5s ease-in-out ;
+
+}
+#submit-button:hover{
+  color:black;
+  background: rgb(147,187,255);
+  padding: 20px 30px;
+
+
+
+
+  
+}
+@keyframes red-to-black{
+  /* from{
+    background-color: red;
+  }
+  to{
+    background-color: black;
+  } */
+  0%{
+    background: red;
+    transform: translate(0px,0px);
+  }
+  20%{
+    background: blue;
+    transform: translate(10px,10px);
+  }
+  60%{
+    background: black;
+    transform: translate(20px,20px);
+  }
+  80%{
+    background: rgb(212, 255, 0);
+    transform: translate(10px,10px);
+  }
+  100%{
+    background: rgb(38, 255, 0);
+    transform: translate(0px,0px);
+  }
+
+
+}
+
+
+

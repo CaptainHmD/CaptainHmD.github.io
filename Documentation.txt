@@ -1,0 +1,310 @@
+HTML Section{
+1- URL is A Uniform Resource Locator
+https://www.google.com/search?q=html&sxsrf=APq-WBvmfoh58Dp8_estt2VSUX8razdmVw%3A1649985561604&ei=GchYYoW-JMbeao7ok8gI&ved=0ahUKEwjFrqKa85T3AhVGrxoKHQ70BIkQ4dUDCA4&uact=5&oq=html&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjELADECc6BwgAEEcQsAM6BAgAEAM6CwgAEIAEELEDEIMBOgsILhCABBDHARDRAzoFCC4QgAQ6CAgAEIAEELEDOg4ILhCABBCxAxDHARCjAjoHCCMQsQIQJzoECAAQCkoECEEYAEoECEYYAFDZCViFFWDTF2gEcAF4AIABpQGIAbwFkgEDMC41mAEAoAEByAEKwAEB&sclient=gws-wiz-serp
+[https/http] here the protocal 
+[www.google.com] here the host
+.com/....  After that will be the Resource of the host
+
+-------------------------------------------------------------------------
+
+2-   
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS Section{
+
+   1- link this css file with html <link rel="name" href="path for css file"/>
+
+   2- [Selectors] are ways of grabbing and manipulation html , there is a many ways {
+      a-The Element selector <p>Hola onii chan</p> p is a element selector || style only p element 
+
+      b- The class selector <p class = "Hclass">Hola onii chan</p> Hclass is a class selector will style all seleceted element of the class
+       
+      c- The ID selector <p id = "Hid">Hola onii chan</p> Hid is an id Selector and we only use it for one element
+   }
+      d- Attribute selectors Useing attribute for the element in css selectors{
+         attribute selectors type {
+               1- Element[attribute = value]{
+               color: blue;
+               }
+               2-Element[attribute ^= value]{
+               color: blue;
+               }
+               3-Element[attribute $= value]{
+               color: blue;
+               }
+               4-Element[attribute *= value]{
+               color: blue;
+               }
+               5-Element[attribute ~= value]{
+               color: blue;
+               }
+               6-Element[attribute |= value]{
+               color: blue;
+               }
+            }
+      }
+    3-Colors type{
+       a- css colors names [blue , red ,....]
+       b- Hex Code #0000ff this a hex code for blue color
+       c- Decimal Code ,   rgb(0,0,255) this a decimal code for Blue color
+       use color picker in google to choose
+
+    }
+    4- Images by URL   example:   background : url(here the url of the image);
+    5- background {
+      background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg");
+      background-repeat: no-repeat; /*don`t repeat the image if it is small*/
+      background-size: cover ; /*resize the image to fit correctly but it will cut the image if needed */
+      /* background-size: contain;  resize the image as much as possible without cuting the image */
+    }
+
+    6-Gradients types{
+      Linear Gradients (goes down/up/left/right/diagonally)
+      Radial Gradients (defined by their center)
+      Conic Gradients (rotated around a center point)
+    }
+
+    7- Types of Units{
+       a- Relative Lengths
+
+       b-Absolute Lengths
+
+    } 
+
+    8- text manipulation{
+       1- text-decoration{
+            text-decoration: none; 
+            text-decoration: underline;  
+            text-decoration: line-through;  
+            text-decoration: overline; 
+
+       }
+
+       2-text-transform{
+            /* text-transform: uppercase; */
+            /* text-transform: lowercase; */
+       }
+
+       3-text-align{
+           /* text-align: center; */
+            /* text-align: left; */
+            /* text-align: right; */
+            text-align: justify;
+       }
+
+    }
+
+ 9- border::: 4 main types {
+    1- solid
+    2- dotted
+    3- dashed
+    4- double
+ }
+ 
+ 10- margin & padding{
+    marging is moving the element around the page
+    padding is adding space inside the element
+
+ }
+
+11- Float & display{
+
+   in-line
+   block-line
+}
+12- line-height {
+   line height : sets the differences between two lines of your content.
+}
+
+13- flex and grid{
+
+      Grid and Flexbox are layout models that share similarities and can be used together.
+       The key difference is that CSS Grid can be used to create two-dimensional layouts,
+       while Flexbox can only be used to create one-dimensional layouts. 
+
+
+       
+}
+
+14- transition{
+
+   transition:    first property or type all for every property ,
+    second time it take to do the transition,
+    third style of the transition,
+    last os the delay
+
+   
+   transition:  property duration timing-function delay
+
+
+    transition: background, color  1s  ease-in-out
+
+
+    styles{
+       1-ease
+       2- linear
+       3- ease-in-out
+       and alot more in this link
+       https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp
+
+    }
+
+}
+
+
+
+15- transformation{
+   transform:  rotate(angle); :: rotate (:
+  transform: translate(x , y ) px   :: moveing the object-position: 
+  transform: scale(number);    :: increase the size
+  transform: skewX(angle);    :: curve
+  transform: skewY(angle);    :: curve
+  shorthand    transform: matrix(scaleX , skewX , skewY , scaleY , translateX , translateY );
+}
+
+16- animations{
+   key frames 
+   @keyframes name-of-the-function{
+   0%{
+      CSS Section
+   }
+   50%{
+      CSS Section
+   }
+   90%{
+      CSS Section
+   }
+   100%{
+      CSS Section
+   }
+}
+
+
+   for applying the animation
+   
+   animation-name: red-to-black ; /* name for the function */
+  animation-duration: 4s; /* animation duration time */
+  animation-timing-function: linear;/* style of animation*/
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite; /*  value can be number or infinite*/
+  /*animation-direction: alternate-reverse ; /*normal is the defulte ,, reverse ,,,,, alternate-reverse*/
+  /* ShortHand
+  animation: name duration speedorstyle delay iteration-count direction;
+  animation: red-to-black 4s linear 0 infinite normal 
+  */
+
+
+}
+
+
+
+      
+
+}// CSS Section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code Section{ 
+
+
+   1- link <link rel="name" href="path for css file"/>
+
+   2- [Selectors] 
+      a-The Element selector <p>Hola onii chan</p>  
+
+      b- The class selector <p class = "Hclass">Hola onii chan</p> 
+       
+      c- The ID selector <p id = "Hid">Hola onii chan</p>
+
+        1- basics Pseudoselectors{
+         a- hover : css the element when it got hoverd  
+         b- nth-child(2) : css the currect child in ul 
+         c- link : style of the link before you vitited 
+         d- vitited : style of the link after you vitited 
+        }
+         2- advance Pseudoselectors
+            a- 
+
+
+         3- Attribute selectors{
+            in css Section
+            Element[attribute = value] : also you can use Pseudoselectors like
+            p[class=attribute-selector]:hover{    hover is optional
+               color: blue;
+            }
+         }   
+
+    3- Dummy text ,, type lorem then the number like lorem100  : OR : p*4>lorem20     
+    
+   4- background{
+      background: url("https://www.gardeningknowhow.com/wp-content/uploads/2019/08/flower-color.jpg");
+      background-repeat: no-repeat; /*don`t repeat the image if it is small*/
+      background-size: cover ; /*resize the image to fit correctly but it will cut the image if needed */
+      /* background-size: contain;  resize the image as much as possible without cuting the image */
+   }
+
+
+   5-margin & padding{
+      margin-directions: size ;
+      like::::: 
+          margin-top: 20px; 
+          margin-left: 20px;
+      you can use padding as well;
+
+      
+      in shorthand for styleing all directions
+      margin: top right bottom left ;
+      like:::::
+      margin: 100px 40px 5px 0
+
+      zero mean nothing
+
+
+   }
+
+   6- FLexbox{
+      flex-directions: column or row -reverse;   
+
+}
+7- line-height {
+   line height : sets the differences between two lines of your content.
+
+   example ----------> in css section (    line-height: 50px   )  
+   }
+
+}
+
+

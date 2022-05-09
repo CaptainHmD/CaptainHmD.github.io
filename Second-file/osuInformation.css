@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(28, 23, 25);
+    color: white;
+}
+
+#user-information-div{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(56, 46, 50);
+    align-items: center;
+    /* gap: 0.5rem; */
+}
+
+#player-information{ /* div*/
+    display: flex;
+    flex: none;
+    background-color: rgb(56, 46, 50);
+    width: 120px;
+    height: 120px;
+
+}
+#player-avatar{ 
+    /* padding: 10px 10px ; */
+    margin: 10px 10px;
+    height: 90px;
+    
+    border-radius: 50%;
+    position: relative;
+
+
+}
+
+#player-avatar:hover{
+    border-style: solid;
+    border-color: rgb(215, 74, 137);
+}
+
+
+#persnal-information{
+    height: 120px;
+    width: 20vw;
+    /* background-color: red; */
+}
+
+
+#user-name{
+height: 2px;
+width: 10px;
+padding: 10px;
+}
+
+
+
+#player-flag-dev{
+width: 10px;
+}
+#player-flag{
+    padding: 10px;
+
+}
+
+
+#user-country-div{
+   
+}
+
+#user-country-flag-name{
+    /* margin-bottom:100px ; */
+}
+

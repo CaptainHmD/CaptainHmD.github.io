@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+   
+
+<link rel="stylesheet" type="text/css" href="/CSS-course/SecondPage.css">  <!--here to link css file with html-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first website</title>
+</head>
+<body>
+    <h1 id="title">Flowers Informations</h1>
+    <a href="https://fonts.google.com/specimen/Akshar#standard-styles">link of the font-family-style</a>
+    <h2 >Orange Flower</h2>
+    <img src="/images/Flower.jpg" alt="hi" id="first-image">
+    <ul>
+        <li class="list-child">First child</li>
+        <li class="list-child">Scond child</li>
+        <li class="list-child">Last child</li>
+    </ul>
+    
+    <p class="para-text"><span class = text-edit>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>  
+    Provident exercitationem quasi nesciunt praesentium repudiandae 
+    repellat deleniti reiciendis modi eos blanditiis?</p>
+
+    <p class="attribute-selector">Here is attribite selector</p>
+ 
+    <div id ="second-image"> 
+        <h2 class="subtitle">White flower</h2>
+        <img src="/images/whiteFlower.jpg" alt="hi">
+        <ul id="White-flower">
+            <li>Color: white</li>
+            <li>Size : 10cm</li>
+            <li>location: i don`t know</li>
+        </ul>
+        <p class="para-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Tempore pariatur suscipit bland
+            itiis maxime voluptate perspiciatis quisquam. Ullam nihil eveniet rerum.</p>
+        <div class="links"><a href="https://www.google.com" id="google-link">Click here to go to google</a></div>
+      
+        
+    </div>
+
+
+    <!-- <div id="empty-list2"></div>
+    <div id="empty-list1"></div> -->
+
+    <div id="service-image"></div>
+    <div id = container>   <!-- flex -->
+        <div class="container-item"style="   
+            order: 3;
+            flex-grow: 1;
+            flex-shrink: 3;
+            flow-basis: 100px ; ">A</div>
+        <div class="container-item"style="
+        order: 4;
+        flex-grow: 1;
+        flex-shrink: 2;
+        flow-basis: 100px ; ">B</div>
+        <div class="container-item"style="
+        order: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flow-basis: 100px ; ">C</div>
+        <div class="container-item"style="
+        order: 0;
+        flex-grow: 1;
+        flex-shrink: 5;
+        flow-basis: 100px ; ">D</div>
+        <div class="container-item"style="
+        order: 2;
+        flex-grow: 1;
+        flex-shrink: 4;
+        flow-basis: 100px ; ">E</div>
+   
+        
+    </div>  <!-- flex -->
+        
+    <div>
+        <h2 id ="animation">Animation</h2>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item"
+         style = " background-color: rgb(255,150,150);
+         /* grid-column: 2/span 2;
+         grid-row: 1/2; */
+         grid-area: 2/3/2/1 ;"
+         
+         >1</div>
+        <div class="grid-item "
+        
+        style = " background-color: rgb(170,255,150);"
+        >2</div>
+
+        <div class="grid-item"
+        style = " background-color: rgb(255,150,255);"
+        >3</div>
+
+        <div class="grid-item "
+         style = " background-color: rgb(255,207,119);"
+         >4</div>
+
+        <div class="grid-item" 
+        style = " background-color: rgb(44, 150, 207);"
+        >5</div>
+
+        <div class="grid-item" 
+        style = " background-color: rgb(199, 27, 205);"
+        >6</div>
+        
+    </div>
+
+    <div>
+        <form id="contact-information" >
+
+            <div id="lable"><label for="email" id="contact-lable">Email me</label></div>
+            <div><input type="text"  placeholder="Full Name" id="fullname-input"></div>
+            <div><input type="text"  placeholder="Email" id="email-input" ></div>
+            <div><button id="submit-button">Submit</button></div>
+            
+        </form>
+    </div>
+</body>
+</html>
