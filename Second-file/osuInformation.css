@@ -78,3 +78,28 @@ margin-left: 5px;
     justify-content: space-between;
 
 }
+
+#beatmaps-rank-section{
+    border-color: red;
+    width: max-content;
+    display:flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.score-image-ranks{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.number{
+font-size: 12px;
+align-items: center;
+justify-content: space-between;
+text-align: center;
+
+}
