@@ -7,13 +7,33 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+div{
+    display: block;
+}
 #user-information-div{
     display: flex;
-    width: 100%;
+    flex-wrap:wrap ;
+    justify-content: center;
+    width:auto;
     height: 120px;
     background-color: rgb(56, 46, 50);
 
 }
+@media screen and (max-width: 586px) {
+    #user-information-div{
+        height: 150px;
+    }
+    
+}
+@media screen and (max-width: 430px) {
+    #user-information-div{
+        height: 180px;
+    }
+    
+}
+
+    
+
 
 #player-information{ /* div*/
     display: flex;
@@ -64,7 +84,7 @@ body{
 }
 
 #country-name{
-    
+    white-space: nowrap ; 
 margin-left: 5px;
 
 }
@@ -80,24 +100,33 @@ margin-left: 5px;
 }
 
 #beatmaps-rank-section{
-    border-color: red;
-    width: max-content;
+    /* background-color: red; */
+
+
+    width: 300px;
     display:flex;
+    /* flex-wrap: wrap; */
+margin-left: 40px;
+    align-items: center;
     justify-content: space-between;
 
-    align-items: center;
 
 }
 
-.score-image-ranks{
-    font-size: 22px;
+.score-image-ranks{ /*div*/
+    /* font-size: 22px; */
+    /* height: ; */
     display: flex;
     flex-direction: column;
     
 }
 
+.score-rank-icon{
+    height: 3vh;
+}
+
 .number{
-font-size: 12px;
+font-size: 2vh;
 align-items: center;
 justify-content: space-between;
 text-align: center;
