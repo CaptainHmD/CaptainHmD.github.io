@@ -6,22 +6,80 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 div{
     display: block;
+    padding: 0;
+    margin: 0;
 }
+
+#main-div{
+    /* align-items: center;
+    justify-content: center;
+    justify-items: center */
+    
+
+}
+
+#player-profile-title{
+    height:60px;
+    display: flex;
+    
+    background-color:rgb(46, 31, 37) ;
+    background: linear-gradient(rgb(131, 37, 74), rgb(48, 34, 39) );
+    
+}
+
+#osu-title-image-section{
+    margin-left: 25%;
+    padding-right: 3px;
+}
+
+
+#osu-title-image{
+    margin-top: 2px;
+    box-sizing: content-box;
+
+    transition: all .1s ease-in-out;
+}
+#osu-title-image:hover{
+
+    height: 55px;
+    border-radius: 1PX;
+    background: url("https://osu.ppy.sh/assets/images/osu-logo-triangles.b1e57c37.svg");
+
+}
+
+
+
+
+#player-info-text{
+    height: 100%;
+font-size: 18px;
+justify-content: center;
+padding-top: 16px;
+
+}
+
+
+
 #user-information-div{
+
+
     display: flex;
     flex-wrap:wrap ;
     justify-content: center;
-    width:auto;
+    width:85%;
     height: 120px;
     background-color: rgb(56, 46, 50);
+    margin-left: 7.5% ;
+    border-radius: 30px;
 
 }
-@media screen and (max-width: 586px) {
+@media screen and (max-width: 688.67px) {
     #user-information-div{
-        height: 150px;
+        height: 155px;
     }
     
 }
@@ -32,13 +90,19 @@ div{
     
 }
 
+@media screen and (max-width: 280px) {
+    #user-information-div{
+        height: 240px;
+    }
+    
+}
     
 
 
 #player-information{ /* div*/
     display: flex;
     flex-direction: row;
-    background-color: rgb(56, 46, 50);
+    /* background-color: rgb(56, 46, 50); */
     width: 120px;
     height: 120px;
 
@@ -122,13 +186,20 @@ margin-left: 40px;
 }
 
 .score-rank-icon{
-    height: 3vh;
+    height: 2.9vh;
 }
 
 .number{
-font-size: 2vh;
-align-items: center;
-justify-content: space-between;
+    font-weight: bold;
+font-size: 1.9vh;
 text-align: center;
 
+}
+
+#setting-section{
+    display: flex;
+  width:7vw;
+}
+#setting-image-link{
+ 
 }
