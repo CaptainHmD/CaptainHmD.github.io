@@ -22,6 +22,7 @@ div{
 
 }
 
+
 #player-profile-title{
     height:60px;
     display: flex;
@@ -63,6 +64,25 @@ padding-top: 16px;
 }
 
 
+#beat-map-title{
+    background: radial-gradient(rgb(171, 60, 104), rgb(0, 0, 0) );
+    width: 90%;
+    margin-left:5% ;
+    height: 55px;
+    border-radius: 2% ;
+    padding-top: 16px;
+    text-align: center;
+}
+#favourite-beatmaps-title{
+    height: 100%;
+    font-size: 18px;
+    padding-top: 16px;
+
+}
+
+
+
+
 
 #user-information-div{
 
@@ -90,7 +110,7 @@ padding-top: 16px;
     
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 297px) {
     #user-information-div{
         height: 240px;
     }
@@ -186,20 +206,111 @@ margin-left: 40px;
 }
 
 .score-rank-icon{
-    height: 2.9vh;
+    height: auto;
 }
 
 .number{
     font-weight: bold;
-font-size: 1.9vh;
+font-size: 1.7vh;
 text-align: center;
 
-}
+} 
 
 #setting-section{
     display: flex;
   width:7vw;
 }
-#setting-image-link{
+/* #setting-image-link{
  
+} */
+#beat-map-section{
+    
+
+    display:grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+    height: auto;
+    background-color: rgb(42, 34, 38);
+    margin-left: 7.5%;
+    border-radius: 30px;
+    grid-template-columns: auto auto;
+}
+.beat-map-info{
+    background-color: rgb(56, 46, 50);
+    /* width: 100%; */
+    height: 140px;
+    width: auto;
+    display: flex;
+    border-radius: 10%;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    margin: 10px;
+    grid-gap: 1.5em;
+}
+@media screen and (max-width: 750px) {
+   
+    #beat-map-section{
+    display: block;
+   
+    }
+ 
+}
+
+.beat-map-image{
+    border-radius: 10%;
+    
+    margin-top:3px ;
+    margin-right:3px ;
+}
+.beat-map-image:hover{
+    border: solid;
+    border-color: #f32c96;
+    
+    
+}
+.beat-map-image-section{
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+}
+
+.beatmap-name-section{
+/* font-size: 60%; */
+/* width: 40px; */
+}
+.beatmap-name{
+   margin-right: 30px;
+   padding-right: 30px;
+   font-family: 'Roboto Mono', monospace;
+    }
+.beat-map-audio{
+    text-align: center;
+}
+.audio-button{
+    cursor: pointer;
+    border-radius: 5px;
+    color: whitesmoke;
+    border-color: rgb(222, 49, 174);
+    background-color: rgb(94, 44, 66);
+    font-size: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+ 
+}
+.download-button{
+    background-color: rgb(131, 46, 80);
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 100%;
+    transition: all 0.5s;
+}
+.download-button:hover{
+    background-color: rgb(206, 68, 123);
+    padding: 10px 23px;
+
+
 }
