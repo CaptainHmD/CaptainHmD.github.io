@@ -65,7 +65,7 @@ padding-top: 16px;
 
 
 #beat-map-title{
-    background: radial-gradient(rgb(171, 60, 104), rgb(0, 0, 0) );
+    background: radial-gradient(rgb(171, 60, 104), rgb(29, 26, 26) );
     width: 90%;
     margin-left:5% ;
     height: 55px;
@@ -91,13 +91,13 @@ padding-top: 16px;
     flex-wrap:wrap ;
     justify-content: center;
     width:85%;
-    height: 120px;
+    height: auto;
     background-color: rgb(56, 46, 50);
     margin-left: 7.5% ;
     border-radius: 30px;
 
 }
-@media screen and (max-width: 688.67px) {
+/* @media screen and (max-width: 697.71px) {
     #user-information-div{
         height: 155px;
     }
@@ -115,7 +115,8 @@ padding-top: 16px;
         height: 240px;
     }
     
-}
+} */
+
     
 
 
@@ -127,12 +128,17 @@ padding-top: 16px;
     height: 120px;
 
 }
+#player-name-section{
+    display: flex;
+    flex-direction: column;
+ 
+}
 
 
 
 #player-avatar{ 
 
-    margin: 10px 10px;
+    margin: 14px 10px;
     height: 90px;
     
     border-radius: 50%;
@@ -154,8 +160,20 @@ padding-top: 16px;
 #user-name{
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 25px;
+    padding-top: 25px;
     display: block;
+}
+@media screen and (max-width: 297px) {
+    #user-name{
+
+        padding-top: 0;
+
+    }
+    #player-name-section{
+
+        align-items: center;
+     
+    }
 }
 
 
@@ -190,11 +208,18 @@ margin-left: 5px;
     width: 300px;
     display:flex;
     /* flex-wrap: wrap; */
-margin-left: 40px;
+    margin-left: 40px;
     align-items: center;
     justify-content: space-between;
+    transition: all 0.5s;
+}
+@media screen and (max-width: 552.43px) {
+    #beatmaps-rank-section{
 
+        margin-left: 0;
 
+    }
+    
 }
 
 .score-image-ranks{ /*div*/
@@ -248,7 +273,7 @@ text-align: center;
     margin: 10px;
     grid-gap: 1.5em;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 935px) {
    
     #beat-map-section{
     display: block;
@@ -275,10 +300,7 @@ text-align: center;
     margin: 10px;
 }
 
-.beatmap-name-section{
-/* font-size: 60%; */
-/* width: 40px; */
-}
+
 .beatmap-name{
    margin-right: 30px;
    padding-right: 30px;
@@ -314,3 +336,67 @@ text-align: center;
 
 
 }
+
+#skins-and-setting-title{
+    background: radial-gradient(rgb(171, 60, 104), rgb(29, 26, 26) );
+    width: 90%;
+    margin-left:5% ;
+    height: 55px;
+    border-radius: 2% ;
+    padding-top: 16px;
+    text-align: center;
+}
+#skin-and-setting-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    /* justify-content: center; */
+    width: 85%;
+    width:max-content;
+    height: auto;
+    background-color:rgb(42, 34, 38) ;
+    /* margin-left: 1%; */
+    margin: auto;
+    border-radius: 30px;
+
+}
+#skin-info{
+    margin: 30px 0 30px 30px;
+    
+    display:inline-flex ;
+    flex-wrap: wrap;
+}
+
+table, th, td {
+    border: 2px solid rgb(31, 25, 28);
+    width: 50%;
+    text-align: center;
+ }
+ th {
+    font-weight: bold;
+    
+}
+
+ #beton{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 8px;
+    font-size: medium;
+ }
+
+ #setting-image-link{
+    margin: auto;
+
+    /* margin-left: 10px; */
+
+}
+
+
+ #setting-image{
+    
+    /* margin: 30px; */
+    /* margin-left: 10px; */
+
+ }
+
+
+
