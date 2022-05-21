@@ -72,6 +72,7 @@ padding-top: 16px;
     border-radius: 2% ;
     padding-top: 16px;
     text-align: center;
+    
 }
 #favourite-beatmaps-title{
     height: 100%;
@@ -86,16 +87,15 @@ padding-top: 16px;
 
 #user-information-div{
 
-
     display: flex;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     justify-content: center;
-    width:85%;
-    height: auto;
+    width: 90%;
     background-color: rgb(56, 46, 50);
-    margin-left: 7.5% ;
+    margin-left: 5%;
     border-radius: 30px;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* @media screen and (max-width: 697.71px) {
     #user-information-div{
@@ -338,7 +338,7 @@ text-align: center;
 
 #skins-and-setting-title{
     background: radial-gradient(rgb(171, 60, 104), rgb(29, 26, 26) );
-    width: 90%;
+    /*width: 90%;*/
     margin-left:5% ;
     height: 55px;
     border-radius: 2% ;
@@ -351,7 +351,7 @@ text-align: center;
     flex-direction:row ;
     /* justify-content: center; */
     width: 85%;
-    width:max-content;
+    /*width:max-content;*/
     height: auto;
     background-color:rgb(42, 34, 38) ;
     /* margin-left: 1%; */
@@ -362,20 +362,19 @@ text-align: center;
 #skin-info{
     margin: 30px 0 30px 30px;
     
-    display:inline-flex ;
-    flex-wrap: wrap;
 }
 
 #skins-table {
     border-collapse: collapse;
     /* width: 50%; */
     /* text-align: center; */
-    margin: 25px 0;
+    margin: 25px ;
     font-size: 0.9em;
-    min-width: 400px;
+    /*min-width: 400px;*/
     border-radius:5px 5px 0 0 ;
-    overflow:hidden ;
     box-shadow: 0 0 20px rgb(0, 0, 0,0.50);
+    table-layout: fixed;
+    width: 90%;
  }
  #skins-table thead tr {
      background-color: rgb(129, 50, 81);
