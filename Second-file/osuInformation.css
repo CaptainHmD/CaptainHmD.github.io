@@ -376,6 +376,7 @@ text-align: center;
     box-shadow: 0 0 20px rgb(0, 0, 0,0.50);
     table-layout: fixed;
     width: 90%;
+    text-align: center;
  }
  #skins-table thead tr {
      background-color: rgb(129, 50, 81);
@@ -408,6 +409,13 @@ tbody tr:last-of-type{
     margin: 2px;
     font-size: medium;
  }
+ #beton:hover{
+    background-color: rgb(206, 68, 123);
+    padding: 9px 20px;
+
+
+}
+
 
  #setting-image-link{
     margin: auto;
@@ -417,7 +425,14 @@ tbody tr:last-of-type{
 
 }
 
-
+h3{
+    color: #f32c96;
+    text-decoration:  underline #2a2226;
+}
+h3:hover{
+    color: #f32c96;
+    text-decoration:  underline;
+}
  #setting-image{
     
     /* margin: 30px; */
