@@ -338,8 +338,8 @@ text-align: center;
 
 #skins-and-setting-title{
     background: radial-gradient(rgb(171, 60, 104), rgb(29, 26, 26) );
-    /*width: 90%;*/
-    margin-left:5% ;
+    /* width: 90%; */
+    margin:1% 5% 1% 5% ;
     height: 55px;
     border-radius: 2% ;
     padding-top: 16px;
@@ -369,6 +369,7 @@ text-align: center;
     /* width: 50%; */
     /* text-align: center; */
     margin: 25px ;
+    margin-bottom: 0px;
     font-size: 0.9em;
     /*min-width: 400px;*/
     border-radius:5px 5px 0 0 ;
@@ -404,12 +405,13 @@ tbody tr:last-of-type{
 
  #beton{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 8px;
+    margin: 2px;
     font-size: medium;
  }
 
  #setting-image-link{
     margin: auto;
+    margin-bottom:15px ;
 
     /* margin-left: 10px; */
 

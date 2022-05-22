@@ -5,11 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title>Setting</title>
+    <style>
+        body {
+            background-color: rgb(28, 23, 25);
+            color: white;
+
+        }
+
+        #main {
+            display: grid;
+            grid-template-columns: 4% auto 4% auto 4% auto;
+        }
+
+        img {
+            margin: 30px 30px 30px 0;
+        }
+
+        .number {
+            margin: 40%;
+            font-size: 30px;
+        }
+
+        #hi {
+            width: 200px;
+            margin: 30px;
+        }
+    </style>
 </head>
 
-<body>
+<script type="text/javascript">
+    function zoom() {
+        document.body.style.zoom = "150%"
+    }
+</script>
 
+<body onload="zoom()">
+
+    <div id="main">
+        <span class="number">1</span><img src="/Second-file/Setting/setting-image/General-1.png" alt="(known)"
+            width="300px" height="450px">
+        <span class="number">2</span><img src="/Second-file/Setting/setting-image/Graphics_2.png" alt="(known)"
+            width="300px" height="450px">
+        <span class="number">3</span><img src="/Second-file/Setting/setting-image/Graphics_3.png" alt="(known)"
+            width="300px" height="450px">
+        <span class="number">4</span><img src="/Second-file/Setting/setting-image/Gameplay-4.png" alt="(known)"
+            width="300px" height="450px">
+        <span class="number">5</span><img src="/Second-file/Setting/setting-image//Audio-5.png" alt="(known)"
+            width="300px" height="450px">
+        <span class="number">6</span><img src="/Second-file/Setting/setting-image/Skins-6.png" alt="(known)"
+            width="300px" height="450px">
+        <span class="number">7</span><img src="/Second-file/Setting/setting-image/last-7.png" alt="(known)"
+            width="300px" height="450px">
+        <div id="hi">
+            <span id="mouse-info">Mouse DPI = 1600</span>
+            <span>Mouse sensitivity = 1.20x</span>
+
+        </div>
+
+
+    </div>
 
 </body>
 
