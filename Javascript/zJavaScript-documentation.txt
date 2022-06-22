@@ -1,0 +1,61 @@
+1-{
+     The alert() method displays an alert box with a message and an OK button.
+
+    The alert() method is used when you want information to come through to the user.
+
+    how to write it
+    alert('type here the alert text');
+    }
+
+2-a{The prompt() method displays a dialog box that prompts the user for input.
+    
+    The prompt() method returns the input value if the user clicks "OK", otherwise it returns null.
+    
+    how to write it
+    prompt("the question");
+}
+
+
+
+3-{ 
+    functions
+
+        how to write it
+
+        function fun() {
+
+        }
+
+
+}
+
+4- change text by selectors {
+    document.getElementById("title1").innerHTML = name;
+    ## title1 is the id , name is the changing text
+
+
+}
+
+5- store object in variable {
+
+    var name={first: 'hamad', last: 'laaboun'}
+    u can call it like : name.first
+    
+    split string into same variable but it will store object (array)
+    how to  write it
+    name.split('');
+
+}
+
+6- Arrays{
+
+    how to write it
+    let arr = [12 , 121 ,313] any datatype is confirmed (shorthand)
+    let arr = new Array(12, 121 , 313); long way  
+
+    clone two arrays by useing --concat-- function
+}
+
+7-JSON{
+    
+}
