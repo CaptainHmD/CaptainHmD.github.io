@@ -5,7 +5,7 @@ console.log(b);
 
 
 
-document.getElementById("title1").innerHTML = name;
+document.getElementById("title1").innerHTML = 'I changed';
 function fun(){
     var num =0
     while(num <10){
@@ -17,5 +17,5 @@ function fun(){
 }
 
 let arr = new Array(12, 121 , 313);
-alert(arr[2]);
+console.log(arr[2]);
 fun();
