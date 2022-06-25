@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    box-sizing: border-box;
+}
+
+#container-flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+#title{
+    margin-top: 20px;
+    border: 2px solid white;
+    padding: 6px;
+}
+
+
+#button-interactive{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#button-interactive div{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow:  5px 5px 5px 5px rgb(0, 0, 0);
+
+}
+
+
+
+#create-seal{
+    
+    font-size: 40px;
+    background-color: blue;
+    color:white;
+    transition: all 0.2s ease-in-out ;
+    border-radius: 10% ;
+    
+    }
+    
+    #create-seal:hover{
+        font-size: 50px;
+        background-color: rgb(58, 58, 240);
+    
+    
+    }
+    
+    #reset{
+    font-size: 40px;
+    color:white;
+    background-color: red;
+    transition: all 0.2s ease-in-out ;
+    border-radius: 10% ;
+    
+    
+    
+    
+    }
+    #reset:hover{
+        font-size: 50px;
+        background-color: rgb(233, 54, 54);
+    
+    }
+    #seals-gifs-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 2px;
+        min-height: 240px;
+    
+    }
+    #seals-gifs-container img{
+        margin: 10px;
+        width: 300px;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 2px;
+        box-shadow:   4px 4px 4px 4px rgb(0, 0, 0) ;
+
+    }
+ 
