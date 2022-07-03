@@ -22,9 +22,12 @@
 
         how to write it
 
-        function fun() {
-
+        function sim(a,b) {
+            return a+b;
         }
+        
+        for implicit return , remove curly braces
+    var sum = (a,b) => a + b;
 
 
 }
@@ -52,10 +55,45 @@
     how to write it
     let arr = [12 , 121 ,313] any datatype is confirmed (shorthand)
     let arr = new Array(12, 121 , 313); long way  
-
+ 
     clone two arrays by useing --concat-- function
 }
+7-Arrays methods map , filter  , reduce{ &&&&&&&&&&&
 
-7-JSON{
+    maps : loops and returns an Array
+    array.map(number =>{console.log(number)})
+
+
+    filter 
+     array.filter(num => num >=3)
+
+
+    reduce 
+
+}
+
+8-JSON{
     
+}
+
+9- for each{
+    for(const anyName of nameOfTheArray){
+        anyName will store the elements of the array
+    }
+
+    for(const fruit of fruits){
+        console.log(fruit)
+    }
+}
+
+10-Higher Order Functions : Is a function that accepts functions as parameters and/or returns a function.
+
+11- DOM Manipulation {
+    document object Model
+
+    1- getElementById for getting the elements by id , class , tag name
+
+    2- innerText returns all text contained by an element and all its child elements.
+       innerHtml returns all text, including html tags, that is contained by an element.   also u can change the type of elements     
+
 }
