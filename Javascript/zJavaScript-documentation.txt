@@ -65,7 +65,7 @@
 
 
     filter 
-     array.filter(num => num >=3)
+     array.filter(attribute  => conditional_statement)
 
 
     reduce 
@@ -84,16 +84,35 @@
     for(const fruit of fruits){
         console.log(fruit)
     }
+    arrow function
+    array.forEach(parameters if needed => function statements )
 }
 
 10-Higher Order Functions : Is a function that accepts functions as parameters and/or returns a function.
 
 11- DOM Manipulation {
-    document object Model
+    document object Mdoel
 
     1- getElementById for getting the elements by id , class , tag name
+    for calsses we use document,querySelectorAll(here is the class name) // for change multiable elements by ther calsses
 
     2- innerText returns all text contained by an element and all its child elements.
        innerHtml returns all text, including html tags, that is contained by an element.   also u can change the type of elements     
+
+    3- 
+}
+12- styleing in JS {
+    {
+        first grabbing the elements : getElementById 
+         element.style.CSSStyleDeclaration= 'value';
+        like --->  title.style.color = 'red'   
+    }
+
+    how to use onclick in js file {
+        first grabbing the elements : getElementById 
+        title.onclick = (parameters if needed) => function statement
+
+
+    }
 
 }

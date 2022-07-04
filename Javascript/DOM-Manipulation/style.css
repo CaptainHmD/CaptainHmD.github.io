@@ -2,3 +2,25 @@ body{
     background-color: rgb(41, 41, 41);
     color: white;
 }
+
+.box-container{
+    display: flex;
+}
+.box-style{
+    width:100px ;
+    height: 100px;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 5px;
+
+}
+#red-box{
+    background-color: red;
+}
+#green-box{
+    background-color: green;
+}
+#blue-box{
+    background-color: blue;
+}
+

@@ -41,4 +41,3 @@ const actors = [
 
   console.log(sumOfnetWorths);
   /////
-
