@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(132, 139, 233);
+    color: white;
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+}
+
+#flexbox-container{
+    width: 40%;
+    /* height: 90%; */
+    height: 800px;
+    background-color: rgb(32, 30, 47);
+    margin: 3.5% 0 0 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text{
+    margin-top: 100px;
+    margin-left: 2%;
+}
+
+.input-botton{
+    background-color: rgb(97, 102, 181);
+    /* background-color: rgb(49, 53, 84); */
+    color: white;
+    height: 40px;
+    width: 35vw;
+    border-radius: 10px;
+    /* margin-left: 2%; */
+    outline: none;
+    font-size: 1.8rem;
+    border: none;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.726);
+  }
+
+#people-item-container{
+     display: flex;
+    flex-direction: row;
+
+  }
+
+  .people-button{
+    font-size: 2.5rem;
+    background-color:rgb(112, 106, 156);
+    margin: 7px;
+    color: white;
+    border-radius: 100%;
+    width: 3rem;
+    border-color:white ;
+    cursor: grab;
+
+
+  }
+  #plus-button{
+    margin-left: 15%;
+    /* display: inline; */
+  }
+
+  div{
+    display: inline;
+  }
+.people-item {
+width: 50%;
+ 
+
+}
+#total-price{
+    padding-left: 20%;
+    font-size: 2.3rem;
+}

@@ -7,7 +7,17 @@ https://www.google.com/search?q=html&sxsrf=APq-WBvmfoh58Dp8_estt2VSUX8razdmVw%3A
 
 -------------------------------------------------------------------------
 
-2-   
+2-   placeholder{
+   The placeholder attribute specifies a short hint that describes the expected value of an input field
+   Note: The placeholder attribute works with the following input types: text, search, url, tel, email, and password.
+
+   To change the color in css file
+   
+   ::placeholder {
+    color: rgba(255, 255, 255, 0.726);
+  }
+  
+}
 
 } 
 
