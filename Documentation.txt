@@ -1,3 +1,11 @@
+30+ Useful cheat sheets for web developers
+
+https://creativenauts.wordpress.com/2014/02/08/cheat-sheet-web-development-design/
+
+
+
+
+
 HTML Section{
 1- URL is A Uniform Resource Locator
 https://www.google.com/search?q=html&sxsrf=APq-WBvmfoh58Dp8_estt2VSUX8razdmVw%3A1649985561604&ei=GchYYoW-JMbeao7ok8gI&ved=0ahUKEwjFrqKa85T3AhVGrxoKHQ70BIkQ4dUDCA4&uact=5&oq=html&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjELADECc6BwgAEEcQsAM6BAgAEAM6CwgAEIAEELEDEIMBOgsILhCABBDHARDRAzoFCC4QgAQ6CAgAEIAEELEDOg4ILhCABBCxAxDHARCjAjoHCCMQsQIQJzoECAAQCkoECEEYAEoECEYYAFDZCViFFWDTF2gEcAF4AIABpQGIAbwFkgEDMC41mAEAoAEByAEKwAEB&sclient=gws-wiz-serp

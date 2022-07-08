@@ -10,7 +10,7 @@ body{
     height: 800px;
     background-color: rgb(32, 30, 47);
     margin: 3.5% 0 0 30%;
-    border-radius: 10px;
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -26,7 +26,7 @@ body{
     color: white;
     height: 40px;
     width: 35vw;
-    border-radius: 10px;
+    border-radius: 30px;
     /* margin-left: 2%; */
     outline: none;
     font-size: 1.8rem;

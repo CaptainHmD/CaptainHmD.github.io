@@ -19,21 +19,21 @@
         <div>
             <h2 class="input-text">Bill Total</h2>
             <span style="font-size:1.5rem ;">$</span>
-            <input type="text" placeholder="0.00" class="input-botton">
+            <input type="text" placeholder="0.00" class="input-botton" id="bill-amount" onkeyup="calculateBill()">
         </div>
         <div>
             <h2 class="input-text">Tip</h2>
             <span style="font-size:1.5rem ;">%</span>
-            <input type="text" placeholder="10" class="input-botton">
+            <input type="text" placeholder="10" class="input-botton" id="tip" onkeyup="calculateBill()">
         </div>
         <div id="people-item-container">
             <div class="people-item">
                 <h2 class="input-text" style="margin-left: 16%;">People</h2>
 
                 <div>
-                    <button class="people-button" id="plus-button">+</button>
-                    <span style="font-size:2.2rem; font-weight: bold;">1</span>
-                    <button class="people-button" id="minus-button">-</button>
+                    <button class="people-button" id="plus-button" onclick="increasePeople()">+</button>
+                    <span style="font-size:2.2rem; font-weight: bold;" id="number-of-people">1</span>
+                    <button class="people-button" id="minus-button" onclick="decreasePeople()">-</button>
 
                 </div>
 
@@ -49,6 +49,7 @@
         </div>
 
     </div>
+    <script src="/Javascript/advanced-tip-calculator/script.js"></script>
 </body>
 
 </html>
