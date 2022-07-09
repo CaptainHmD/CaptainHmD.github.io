@@ -13,6 +13,7 @@ body{
     border-radius: 50px;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .input-text{
@@ -48,8 +49,8 @@ body{
     background-color:rgb(112, 106, 156);
     margin: 7px;
     color: white;
-    border-radius: 100%;
-    width: 3rem;
+    border-radius: 45% 45% 45% 45%;
+    width: 2.5rem;
     border-color:white ;
     cursor: grab;
 
@@ -70,5 +71,5 @@ width: 50%;
 }
 #total-price{
     padding-left: 20%;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }

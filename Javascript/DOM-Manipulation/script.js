@@ -52,7 +52,7 @@ console.log(allSquares); // it will print all nodes for .box-style class
           
      }
 
-     allSquares.forEach(square => square.onclick = ()=>{
+     allSquares.forEach ( square => square.onclick = ()=>{
           console.log(square.value)
           timesClicked[square.value]++
           console.log(  timesClicked[square.value])

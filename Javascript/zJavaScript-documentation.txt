@@ -86,6 +86,8 @@
     }
     arrow function
     array.forEach(parameters if needed => function statements )
+
+    
 }
 
 10-Higher Order Functions : Is a function that accepts functions as parameters and/or returns a function.
