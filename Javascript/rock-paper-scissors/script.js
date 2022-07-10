@@ -54,6 +54,8 @@ allChoices.forEach(userchoice => userchoice.onclick =()=>{
         }
         break
     }
+    if(winStreak== -1)
+    winStreak++
     playerScore.innerHTML=`Win Streak: ${winStreak}`
 })
 

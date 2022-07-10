@@ -122,3 +122,7 @@
 13- how to add two zero after the number{
     number = number.toFixed('2')
 }
+
+14- api{                                               anyname cuz it`s parameter
+    fetch('url').then(response => response.json()).than(json => :::statements:::)
+}
