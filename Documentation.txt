@@ -24,7 +24,11 @@ https://www.google.com/search?q=html&sxsrf=APq-WBvmfoh58Dp8_estt2VSUX8razdmVw%3A
    ::placeholder {
     color: rgba(255, 255, 255, 0.726);
   }
-  
+}
+
+3- <br>: The Line Break element{
+   The <br> HTML element produces a line break in text (carriage-return). 
+   It is useful for writing a poem or an address, where the division of lines is significant.
 }
 
 } 
