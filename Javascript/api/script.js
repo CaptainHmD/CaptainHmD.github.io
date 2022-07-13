@@ -14,8 +14,20 @@ function dog(){
 
     })
 }
-dog()
+// dog()
 
 const reload = ()=>{
     window.location.reload("Refresh")
 }
+
+ 
+// await
+
+const getdog = async () =>{
+    const url ='https://dog.ceo/api/breeds/image/random'
+    const response = await fetch(url) 
+    const data = await response.json() // like .then(response)
+    img.innerHTML=`<img src= '${data.message}'/>` // last .then for the statements
+
+}
+getdog()
