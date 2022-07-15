@@ -43,21 +43,24 @@ const tempClass = document.querySelectorAll('.temp')
 const Temp=(data) => {
     // console.log(data);
     // console.log(tempClass[0]);
-    tempClass[0].innerText=`Temp: ${data}°`;
+    const FahrenheitToCelsius = ((data-32)/1.8).toFixed('0')
+    tempClass[0].innerText=`Temp: ${FahrenheitToCelsius}°c`;
 }
 
 
 const minTemp=(data) => {
     // console.log(data);
     // console.log(tempClass[1]);
-    tempClass[1].innerText=`Min Temp: ${data}°`;
+    const FahrenheitToCelsius = ((data-32)/1.8).toFixed('3') 
+    tempClass[1].innerText=`Min Temp: ${FahrenheitToCelsius}°c`;
 }
 
 
 const maxTemp=(data) => {
     // console.log(data);
     // console.log(tempClass[2]);
-    tempClass[2].innerText=`Max Temp: ${data}°`;
+    const FahrenheitToCelsius = ((data-32)/1.8).toFixed('3') 
+    tempClass[2].innerText=`Max Temp: ${FahrenheitToCelsius}°c`;
 }
 
 const search= ()=>{
