@@ -43,7 +43,7 @@ const tempClass = document.querySelectorAll('.temp')
 const Temp=(data) => {
     // console.log(data);
     // console.log(tempClass[0]);
-    const FahrenheitToCelsius = ((data-32)/1.8).toFixed('0')
+    const FahrenheitToCelsius = ((data-32)/1.8).toFixed(1)
     tempClass[0].innerText=`Temp: ${FahrenheitToCelsius}°c`;
 }
 
@@ -51,7 +51,7 @@ const Temp=(data) => {
 const minTemp=(data) => {
     // console.log(data);
     // console.log(tempClass[1]);
-    const FahrenheitToCelsius = ((data-32)/1.8).toFixed('3') 
+    const FahrenheitToCelsius = ((data-32)/1.8).toFixed(3) 
     tempClass[1].innerText=`Min Temp: ${FahrenheitToCelsius}°c`;
 }
 
@@ -59,7 +59,7 @@ const minTemp=(data) => {
 const maxTemp=(data) => {
     // console.log(data);
     // console.log(tempClass[2]);
-    const FahrenheitToCelsius = ((data-32)/1.8).toFixed('3') 
+    const FahrenheitToCelsius = ((data-32)/1.8).toFixed(3) 
     tempClass[2].innerText=`Max Temp: ${FahrenheitToCelsius}°c`;
 }
 

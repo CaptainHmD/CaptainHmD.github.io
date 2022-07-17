@@ -170,3 +170,20 @@
     async function will return promise if needed , so use await when wait for returning somthing
 
 }
+
+18 typeof{
+    will return the datatype 
+    typeof 'hi' will return a string
+    typeof 3 will return a number
+}
+19- prototype{
+    for adding a functions in the defulte classes in Javascript
+    example 
+
+    Array is class in Javascript
+    Array.prototype.myFunction = function(){
+        statements
+    }
+    
+
+}
