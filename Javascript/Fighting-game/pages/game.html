@@ -10,20 +10,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fighting </title>
 
-    <script src="../script/menu.js" defer></script>
+    <script src="../script/game.js" defer></script>
 </head>
 
 <body>
+
     <div id="container">
         <div id="wrapper">
             <div id="flexbox-container">
                 <div class="player-div" id="player-one">
                     <span class="player-name ken">Ken</span>
-                    <img src="https://www.fightersgeneration.com/characters2/ken-ts-stance.gif" alt=""
-                        class="player-body ">
-                    <div class="health-bar"></div>
+                    <div id="ken-attack">
+                        <img src="https://www.fightersgeneration.com/characters2/ken-ts-stance.gif" alt=""
+                            class="player-body ">
+                    </div>
+                    <div class="health-bar"><span id="health-number1">100</span></div>
                     <div>
-
                         <div class="attack-button">
                             <div class="hit">Hit</div>
                             <div class="stomp">Stomp</div>
@@ -41,17 +43,19 @@
 
 
 
-                <div><span class="player-name"><span style="color:red">V </span>S</span>
+                <div><span class="player-name m"><span style="color:red" class="m">V </span>S</span>
                 </div>
-
 
                 <div id="player-two" class="player-div">
                     <span class="player-name ryu">Ryu</span>
-                    <img src="https://www.fightersgeneration.com/characters3/ryu-ts-stance.gif" alt=""
-                        class="player-body ryu-body">
-                    <div class="health-bar"></div>
+                    <div id="ryu-attack">
+                        <img src="https://www.fightersgeneration.com/characters3/ryu-ts-stance.gif" alt=""
+                            class="player-body ryu-body">
+                    </div>
+
+                    <div class="health-bar"><span id="health-number2">100</span></div>
                     <div class="attack-button">
-                        <div class="hit">Hit</div>
+                        <div class="hit" id="test">Hit</div>
                         <div class="stomp">Stomp</div>
                     </div>
 

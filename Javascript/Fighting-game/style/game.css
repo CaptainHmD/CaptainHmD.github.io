@@ -92,4 +92,33 @@ left: 10%;
 .second-keybind{
     right: 20%;
 }
+@media screen and (max-width: 400px) {
+ 
+    .player-body{
+        height: 120px;
+    }
+    .m{
+        font-size: 2rem;
+    }
+
+} 
+.health-bar{
+    width: 150px;
+    
+    height: 35px;
+    border-radius: 50px;
+    background: linear-gradient(90deg,#046c04 ,rgb(21, 255, 0));
+    display: flex;
+    justify-content: center;
+}
+#health-number1{
+font-weight: bold;
+}
+#health-number2{
+    font-weight: bold;
+}
+#www{
+    display: block;
+    font-size: 3rem;
+}
 
